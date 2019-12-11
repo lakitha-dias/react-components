@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View , Button, TouchableOpacity, TouchableHighlight} from 'react-native';
+import { StyleSheet, Text, View , Button, TouchableOpacity, Touchable} from 'react-native';
 import {Alert} from "react-native-web";
 
 export default class App extends React.Component{
