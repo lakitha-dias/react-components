@@ -27,7 +27,16 @@ export default class App extends React.Component{
                 }
               }
           />
+
+          <Text style={styles.text1}>
+            {this.state.text
+                .split(" ")
+                .map(text => text && "😻")
+                .join(" ") }
+          </Text>
         </View>
+
+
     );
   }
 }
@@ -45,5 +54,9 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     borderColor: "#23abab"
+  },
+  text1 : {
+    marginTop: 60,
+    fontSize:25
   }
 });
